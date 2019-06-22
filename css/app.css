@@ -1,0 +1,68 @@
+.logo
+{
+  display: flex;
+}
+.logoimg
+{
+  width: 120px;
+  height: 100px;
+}
+.gamediv
+{
+  display: flex;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid black;
+}
+.gmimg
+{
+  width: 30%;
+  height: 250px;
+}
+.border
+{
+  border: 2px solid black;
+}
+.foot
+{
+  text-align: center;
+}
+.main{
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+@media screen and (min-width:500px) and (max-width:780px)
+{
+  .gamediv
+  {
+    border: 1px solid black;
+  }
+}
+@media screen and (min-width:320px) and (max-width:420px)
+{
+  .gamediv
+  {
+
+  }
+  .gmimg
+  {
+    display: run-in;
+    width: 35%;
+    height: 200px;
+    margin-left: 3px;
+  }
+}
+@media screen and (min-width:420px) and (max-width:500px)
+{
+  .gamediv
+  {
+    display: flex;
+    border: 1px solid black;
+  }
+  .gmimg
+  {
+    display: run-in;
+    width: 35%;
+    margin-left: 3px;
+  }
+
+}
